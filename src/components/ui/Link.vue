@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" :class="linkClasses({type})">
+  <a :href="href" :class="linkClasses({type,img})">
     <slot/>
   </a>
 </template>
@@ -13,6 +13,9 @@ const linkClasses = cva(['duration-300','cursor-pointer','rounded-full','transit
       ghost: ['px-6', 'py-4', 'hover:bg-gray-10'],
       full: ['px-6', 'py-[18px]', 'bg-gray-10', 'text-white', 'border', 'border-gray-15', 'hover:bg-white', 'hover:text-gray-10', 'hover:border-transparent'],
       'outline-w-img': ['group/link pl-[34px]', 'py-[18px]', 'pr-[18px]', 'border border-gray-12', 'hover:bg-white', 'hover:text-gray-10', 'hover:border-transparent', 'flex', 'items-center', 'gap-[30px]']
+    },
+    img: {
+      with: ['flex', 'items-center', 'gap-[6px]']
     }
   }
 })
@@ -20,6 +23,7 @@ const linkClasses = cva(['duration-300','cursor-pointer','rounded-full','transit
 const props = defineProps({
   href: String,
   type: String,
+  img: String,
 })
 
 
