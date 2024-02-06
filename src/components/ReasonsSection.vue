@@ -1,17 +1,17 @@
 <template >
   <section class="flex flex-col gap-[100px] my-[150px]">
 
-    <header class="text-center">
-      <h1 class="mb-7 font-semibold text-[48px]">
+    <SectionHeader class="text-center">
+      <template v-slot:title>
         Reasons to Choose DigitX for <br />
         <span class="text-gray-40">Your Digital Journey</span>
-      </h1>
-      <p class="text-gray-40">
+      </template>
+      <template v-slot:content>
         Partnering with DigitX offers a multitude of advantages. Experience increased brand visibility, improved customer
         engagement, and higher ROI. Our tailored solutions are designed to meet your unique business needs, ensuring
         lasting success.
-      </p>
-    </header>
+      </template>
+    </SectionHeader>
 
     <main class="grid grid-cols-[1fr_80px_1fr_80px_1fr] grid-rows-[1fr_80px_1fr]">
 
@@ -102,6 +102,7 @@
   </section>
 </template>
 <script setup>
+import SectionHeader from './SectionHeader.vue'
 import StarsSvg from '../assets/svgs/StarsSvg.vue'
 import ReasonCard from './ReasonCard.vue'
 import LightBulbSvg from '../assets/svgs/LightBulbSvg.vue'
