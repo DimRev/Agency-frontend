@@ -31,10 +31,11 @@
     </div>
   </section>
 </template>
-<script setup>
-import Link from './ui/Link.vue';
 
+<script setup>
+import Link from './ui/Link.vue'
 </script>
+
 <style scoped>
 .glassed {
   position: absolute;

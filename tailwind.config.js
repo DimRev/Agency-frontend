@@ -20,7 +20,6 @@ export default {
         'white-75': "#BFBFBF",
         'white-80': "#CCCCCC",
         'white-90': "#E6E6E6",
-        'background': "#1E1E1E"
       },
       fontFamily: {
         'Sora': ['Sora']

@@ -11,4 +11,3 @@ const props = defineProps({
   type: String,
 })
 </script>
-<style scoped></style>

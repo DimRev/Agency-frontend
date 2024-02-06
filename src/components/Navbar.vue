@@ -11,8 +11,4 @@
 
 <script setup>
 import Link from './ui/Link.vue'
-
-
 </script>
-
-<style ></style>

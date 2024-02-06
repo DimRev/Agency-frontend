@@ -13,4 +13,3 @@ import Navbar from './Navbar.vue'
 import LogoSvg from '../assets/svgs/LogoSvg.vue'
 
 </script>
-<style ></style>

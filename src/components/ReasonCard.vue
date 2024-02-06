@@ -21,8 +21,8 @@
 </template>
 
 <script setup>
-import Link from './ui/Link.vue';
-import IconPill from './ui/IconPill.vue';
+import Link from './ui/Link.vue'
+import IconPill from './ui/IconPill.vue'
 
 const props = defineProps({
   href: String,

@@ -102,15 +102,15 @@
   </section>
 </template>
 <script setup>
-import StarsSvg from '../assets/svgs/StarsSvg.vue';
+import StarsSvg from '../assets/svgs/StarsSvg.vue'
 import ReasonCard from './ReasonCard.vue'
-import LightBulbSvg from '../assets/svgs/LightBulbSvg.vue';
-import PointerSvg from '../assets/svgs/PointerSvg.vue';
-import PhoneSvg from '../assets/svgs/PhoneSvg.vue';
-import LightningSvg from '../assets/svgs/LightningSvg.vue';
-import BlocksSvg from '../assets/svgs/BlocksSvg.vue';
-import HorDiv from './ui/HorDiv.vue';
-import VerDiv from './ui/VerDiv.vue';
+import LightBulbSvg from '../assets/svgs/LightBulbSvg.vue'
+import PointerSvg from '../assets/svgs/PointerSvg.vue'
+import PhoneSvg from '../assets/svgs/PhoneSvg.vue'
+import LightningSvg from '../assets/svgs/LightningSvg.vue'
+import BlocksSvg from '../assets/svgs/BlocksSvg.vue'
+import HorDiv from './ui/HorDiv.vue'
+import VerDiv from './ui/VerDiv.vue'
 
 </script>
 <style ></style>
