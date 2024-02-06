@@ -1,8 +1,8 @@
 <template >
-  <section class="my-[150px] flex flex-col gap-[100px]">
+  <section class="flex flex-col gap-[100px] my-[150px]">
 
     <header class="text-center">
-      <h1 class="font-semibold text-[48px] mb-7">
+      <h1 class="mb-7 font-semibold text-[48px]">
         Reasons to Choose DigitX for <br />
         <span class="text-gray-40">Your Digital Journey</span>
       </h1>
@@ -56,7 +56,7 @@
         </template>
       </ReasonCard>
 
-      <HorDiv class="col-start-1 col-span-5" />
+      <HorDiv class="col-span-5 col-start-1" />
 
       <ReasonCard href="/" class="col-start-1 row-start-3">
         <template v-slot:svg>

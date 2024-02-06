@@ -1,12 +1,12 @@
 <template>
-  <article class="flex flex-col text-center gap-[50px] items-center justify-between">
+  <article class="flex flex-col items-center justify-between gap-[50px] text-center">
     <div class="flex justify-center">
-      <div class="p-6 bg-gray-10 rounded-full border-[10px] border-gray-30">
+      <div class="bg-gray-10 p-6 border-[10px] border-gray-30 rounded-full">
         <slot name="svg"></slot>
       </div>
     </div>
     <div>
-      <h3 class="text-2xl mb-5">
+      <h3 class="mb-5 text-2xl">
         <slot name="header"></slot>
       </h3>
       <p class="text-gray-40">

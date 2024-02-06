@@ -1,9 +1,9 @@
 <template>
   <section class="grid grid-cols-2 gap-6">
-    <div class="row-span-2 pl-[162px] flex items-center relative">
+    <div class="relative row-span-2 flex items-center pl-[162px]">
       <article class="flex flex-col gap-12">
         <div>
-          <h1 class="font-semibold text-[58px] leading-[1.3] mb-7">
+          <h1 class="mb-7 font-semibold text-[58px] leading-[1.3]">
             Digital Solutions <br />
             <span class="text-gray-40">
               That Drive Success
@@ -25,7 +25,7 @@
       </article>
       <div class="abstract"> </div>
     </div>
-    <div class="pr-[162px] relative">
+    <div class="relative pr-[162px]">
       <img src="../assets/imgs/HeroImg.png" alt="" class="p-[19%]">
       <div class="glassed"></div>
     </div>
