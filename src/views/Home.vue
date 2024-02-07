@@ -4,6 +4,7 @@
   <section class="col-start-2">
     <ReasonsSection />
     <ServicesSection />
+    <WorksSection/>
   </section>
 </template>
 
@@ -11,5 +12,6 @@
 import Hero from '../components/Hero.vue'
 import ReasonsSection from '../components/ReasonsSection.vue'
 import ServicesSection from '../components/ServicesSection.vue'
+import WorksSection from '../components/WorksSection.vue';
 </script>
 <style ></style>
