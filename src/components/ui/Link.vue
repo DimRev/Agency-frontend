@@ -7,6 +7,7 @@
 <script setup>
 import { cva } from 'class-variance-authority'
 
+//TODO: Reorganize Link classes to a more generic form
 const linkClasses = cva(['group/link','duration-300','cursor-pointer','rounded-full','transition-colors'],{
   variants:{
     type: {

@@ -11,4 +11,6 @@ import Home from './views/Home.vue'
 
 </script>
 
-<style scoped></style>
+<style scoped>
+
+</style>

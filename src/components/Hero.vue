@@ -23,7 +23,8 @@
           </div>
         </div>
       </article>
-      <div class="abstract"> </div>
+      <!-- <div class="abstract"> </div> -->
+      <div class="abstract-design"><img src="../assets/imgs/Abstract Design.png" alt=""></div>
     </div>
     <div class="relative pr-[162px]">
       <img src="../assets/imgs/HeroImg.png" alt="" class="p-[19%]">
@@ -48,6 +49,15 @@ import Link from './ui/Link.vue'
   backdrop-filter: blur(12px);
 }
 
+.abstract-design{
+  position: absolute;
+  top: 0;
+  left: 0;
+  rotate: -90deg;
+  translate: 40% 0;
+  scale: 2;
+  z-index: -1;
+}
 .abstract {
   position: absolute;
   top: 0;
