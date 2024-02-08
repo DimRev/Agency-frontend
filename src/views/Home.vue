@@ -6,12 +6,17 @@
     <ServicesSection />
     <WorksSection/>
   </section>
+  <TestimonialsSection class="col-start-1 col-end-4"/>
+  <section class="col-start-2">
+
+  </section>
 </template>
 
 <script setup>
 import Hero from '../components/Hero.vue'
 import ReasonsSection from '../components/ReasonsSection.vue'
 import ServicesSection from '../components/ServicesSection.vue'
+import TestimonialsSection from '../components/TestimonialsSection.vue';
 import WorksSection from '../components/WorksSection.vue';
 </script>
 <style ></style>
