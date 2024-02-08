@@ -9,12 +9,14 @@
   <TestimonialsSection class="col-start-1 col-end-4"/>
   <section class="col-start-2">
     <FAQSection/>
+    <PartnersSection />
   </section>
 </template>
 
 <script setup>
 import FAQSection from '../components/FAQSection.vue';
 import Hero from '../components/Hero.vue'
+import PartnersSection from '../components/PartnersSection.vue';
 import ReasonsSection from '../components/ReasonsSection.vue'
 import ServicesSection from '../components/ServicesSection.vue'
 import TestimonialsSection from '../components/TestimonialsSection.vue';
