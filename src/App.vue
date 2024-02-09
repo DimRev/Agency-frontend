@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-[162px_1fr_162px] grid-rows-[auto_1fr] min-h-[100dvh]">
+  <div class="grid grid-cols-lg-main lg:grid-cols-xl-main grid-rows-[auto_1fr] min-h-[100dvh]">
     <AppHeader class="col-span-3" />
     <Home />
     <AppFooter class="col-span-3"/>
