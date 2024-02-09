@@ -26,7 +26,7 @@ export default {
       },
       gridTemplateColumns: {
         'xl-main': '162px 1fr 162px',
-        'lg-main': 'minmax(80px, 10%), 1fr, minmax(80px, 10%)'
+        'lg-main': 'minmax(80px, 1fr), 800px, minmax(80px, 1fr)'
       }
     },
   },
