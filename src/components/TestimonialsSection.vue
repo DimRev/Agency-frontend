@@ -1,5 +1,5 @@
 <template>
-  <section class="grid grid-cols-[162px_1fr_162px] mb-[120px]">
+  <section class="grid grid-cols-[162px_1fr_162px] mb-[120px] overflow-x-hidden">
 
     <SectionHeader class="col-start-2 mb-20">
       <template v-slot:title>
