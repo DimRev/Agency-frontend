@@ -10,10 +10,12 @@
   <section class="col-start-2">
     <FAQSection/>
     <PartnersSection />
+    <CTASection />
   </section>
 </template>
 
 <script setup>
+import CTASection from '../components/CTASection.vue';
 import FAQSection from '../components/FAQSection.vue';
 import Hero from '../components/Hero.vue'
 import PartnersSection from '../components/PartnersSection.vue';
