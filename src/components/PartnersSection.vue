@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="mb-[150px]">
     <SectionHeader>
       <template v-slot:title>
         <span class="text-gray-40">Our</span> Partners and Clients
