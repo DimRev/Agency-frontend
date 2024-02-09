@@ -1,11 +1,13 @@
 <template>
-  <header class="flex justify-between px-[162px] py-6 border-b border-gray-12">
-    <div>
-      <a href="/">
-        <LogoSvg />
-      </a>
+  <header class="grid grid-cols-lg-main lg:grid-cols-xl-main py-6 border-b border-gray-12">
+    <div class="col-start-2 flex items-center justify-between">
+      <div>
+        <a href="/">
+          <LogoSvg />
+        </a>
+      </div>
+      <Navbar />
     </div>
-    <Navbar />
   </header>
 </template>
 <script setup>

@@ -1,6 +1,6 @@
 <template>
   <section class="grid grid-cols-2 gap-6">
-    <div class="relative row-span-2 flex items-center pl-[162px]">
+    <div class="relative row-span-2 flex items-center ">
       <article class="flex flex-col gap-12">
         <div>
           <h1 class="mb-7 font-semibold text-[58px] leading-[1.3]">
@@ -24,9 +24,8 @@
         </div>
       </article>
       <!-- <div class="abstract"> </div> -->
-      <div class="abstract-design"><img src="../assets/imgs/Abstract Design.png" alt=""></div>
     </div>
-    <div class="relative pr-[162px]">
+    <div class="relative col-start-2 row-start-1 row-end-3 flex items-center justify-center">
       <img src="../assets/imgs/HeroImg.png" alt="" class="p-[19%]">
       <div class="glassed"></div>
     </div>
@@ -43,38 +42,9 @@ import Link from './ui/Link.vue'
   left: 0;
   bottom: 50%;
   translate: 0 100%;
-  width: calc(100% - 162px);
+  width: calc(100%);
   height: 50%;
 
   backdrop-filter: blur(12px);
-}
-
-.abstract-design{
-  position: absolute;
-  top: 0;
-  left: 0;
-  rotate: -90deg;
-  translate: 40% 0;
-  scale: 2;
-  z-index: -1;
-}
-.abstract {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200%;
-  translate: -50% -50%;
-  rotate: 45deg;
-
-  z-index: -1;
-
-  background-color: transparent;
-  opacity: 0.3;
-  background-image: linear-gradient(135deg, #1A1A1A 25%, transparent 25%), linear-gradient(225deg, #1A1A1A 25%, transparent 25%), linear-gradient(45deg, #1A1A1A 25%, transparent 25%), linear-gradient(315deg, #1A1A1A 25%, transparent 25%);
-  background-position: 24px 0, 24px 0, 0 0, 0 0;
-  background-size: 24px 24px;
-  background-repeat: repeat;
-
 }
 </style>
