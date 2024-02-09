@@ -56,7 +56,7 @@
         </template>
       </ReasonCard>
 
-      <HorDiv offset="50" class="col-span-5 col-start-1" />
+      <HorDiv offset="50" height="full" class="col-span-5 col-start-1" />
 
       <ReasonCard href="/" class="col-start-1 row-start-3">
         <template v-slot:svg>
