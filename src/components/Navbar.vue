@@ -1,5 +1,5 @@
 <template >
-  <nav class="flex items-center gap-2 xl:gap-1.5">
+  <nav class="max-md:hidden md:flex items-center gap-2 xl:gap-1.5">
     <Link type="ghost" href="/"><span class="text-sm xl:text-lg">Home</span></Link>
     <Link type="ghost" href="/"><span class="text-sm xl:text-lg">Service</span></Link>
     <Link type="ghost" href="/"><span class="text-sm xl:text-lg">Projects</span></Link>
