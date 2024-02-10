@@ -21,7 +21,7 @@
       social: ['card-wrapper-border-fade-down', 'rounded-full'],
     },
     modal: {
-      service: ['card-modal-top-gradient', 'flex', 'flex-col', 'items-center', 'justify-between', 'gap-[50px]', 'px-20', 'pt-[120px]', 'pb-20', 'rounded-xl'],
+      service: ['card-modal-top-gradient', 'flex', 'flex-col', 'items-center', 'justify-between', 'max-md:gap-6','md:gap-10', 'xl:gap-[50px]', 'px-20', 'pt-[120px]', 'pb-20', 'rounded-xl'],
       work: ['card-modal-top-right-gradient', 'rounded-[20px]', 'flex' ,'flex-col', 'gap-10', 'p-10'],
       'work-svg':['card-modal-bottom-right-gradient', 'relative', 'flex', 'justify-center' ,'py-[118px]', 'rounded-[20px]'],
       'testimonial':['card-modal-top-right-gradient', 'flex', 'flex-col', 'gap-[30px]', 'p-10', 'rounded-[20px]', 'h-[303px]'],
@@ -61,5 +61,4 @@ const props = defineProps({
   .card-modal-bottom-right-gradient {
     background: linear-gradient(to right bottom, #0F0F0F 0%, #0F0F0F 55%, #1b1b1b 99%);
   }
-
 </style>

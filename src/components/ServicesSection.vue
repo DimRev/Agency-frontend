@@ -9,7 +9,7 @@
       </template>
     </SectionHeader>
 
-    <main class="grid grid-cols-2 gap-[30px] mt-20">
+    <main class="grid grid-cols-2 gap-5 xl:gap-[30px] mt-[60px] xl:mt-20">
       <ServiceCard >
         <template v-slot:svg>
           <CodeSvg />
