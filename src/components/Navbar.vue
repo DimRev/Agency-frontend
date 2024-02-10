@@ -1,11 +1,11 @@
 <template >
-  <nav class="flex items-center gap-1.5">
-    <Link type="ghost" href="/">Home</Link>
-    <Link type="ghost" href="/">Service</Link>
-    <Link type="ghost" href="/">Projects</Link>
-    <Link type="ghost" href="/">About Us</Link>
-    <Link type="ghost" href="/">Contact Us</Link>
-    <Link type="ghost" href="/" class="mr-[-24px]">Blog</Link>
+  <nav class="flex items-center gap-2 xl:gap-1.5">
+    <Link type="ghost" href="/"><span class="text-sm xl:text-lg">Home</span></Link>
+    <Link type="ghost" href="/"><span class="text-sm xl:text-lg">Service</span></Link>
+    <Link type="ghost" href="/"><span class="text-sm xl:text-lg">Projects</span></Link>
+    <Link type="ghost" href="/"><span class="text-sm xl:text-lg">About Us</span></Link>
+    <Link type="ghost" href="/"><span class="text-sm xl:text-lg">Contact Us</span></Link>
+    <Link type="ghost" href="/" class="mr-[-24px]"><span class="text-sm xl:text-lg">Blog</span></Link>
   </nav>
 </template>
 
