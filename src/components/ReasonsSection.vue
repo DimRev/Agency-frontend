@@ -13,11 +13,11 @@
       </template>
     </SectionHeader>
 
-    <main class="grid grid-cols-[1fr_80px_1fr_80px_1fr] grid-rows-[1fr_80px_1fr]">
+    <main class="grid max-md:grid-cols-1 md:grid-cols-[1fr_80px_1fr_80px_1fr] xl:grid-cols-[1fr_100px_1fr_100px_1fr] md:grid-rows-[1fr_80px_1fr] max-md:grid-rows-1 xl:grid-rows-[1fr_100px_1fr]">
 
-      <ReasonCard href="/" class="col-start-1 row-start-1">
+      <ReasonCard href="/" class="">
         <template v-slot:svg>
-          <StarsSvg />
+          <StarsSvg class="svg" />
         </template>
         <template v-slot:header>
           Expertise That Drives Results
@@ -28,11 +28,12 @@
         </template>
       </ReasonCard>
 
-      <VerDiv />
+      <VerDiv class="max-md:hidden"/>
+      <HorDiv offset="50" height="full" class="md:hidden py-10" />
 
-      <ReasonCard href="/" class="col-start-3 row-start-1">
+      <ReasonCard href="/" class="">
         <template v-slot:svg>
-          <LightBulbSvg />
+          <LightBulbSvg class="svg" />
         </template>
         <template v-slot:header>
           Tailored Business Solutions
@@ -42,11 +43,12 @@
         </template>
       </ReasonCard>
 
-      <VerDiv />
+      <VerDiv class="max-md:hidden" />
+      <HorDiv offset="50" height="full" class="md:hidden py-10" />
 
-      <ReasonCard href="/" class="col-start-5 row-start-1">
+      <ReasonCard href="/" class="">
         <template v-slot:svg>
-          <PointerSvg />
+          <PointerSvg class="svg" />
         </template>
         <template v-slot:header>
           Cutting-Edge Web Design
@@ -56,11 +58,12 @@
         </template>
       </ReasonCard>
 
-      <HorDiv offset="50" height="full" class="col-span-5 col-start-1" />
+      <HorDiv offset="50" height="full" class="max-md:hidden col-span-5" />
+      <HorDiv offset="50" height="full" class="md:hidden py-10" />
 
-      <ReasonCard href="/" class="col-start-1 row-start-3">
+      <ReasonCard href="/" class="">
         <template v-slot:svg>
-          <PhoneSvg />
+          <PhoneSvg class="svg" />
         </template>
         <template v-slot:header>
           Mobile-First Approach
@@ -70,11 +73,12 @@
         </template>
       </ReasonCard>
 
-      <VerDiv />
+      <VerDiv class="max-md:hidden" />
+      <HorDiv offset="50" height="full" class="md:hidden py-10" />
 
-      <ReasonCard href="/" class="col-start-3 row-start-3">
+      <ReasonCard href="/" class="">
         <template v-slot:svg>
-          <LightningSvg />
+          <LightningSvg class="svg" />
         </template>
         <template v-slot:header>
           Marketing Strategies
@@ -84,11 +88,12 @@
         </template>
       </ReasonCard>
 
-      <VerDiv />
+      <VerDiv class="max-md:hidden" />
+      <HorDiv offset="50" height="full" class="md:hidden py-10" />
 
-      <ReasonCard href="/" class="col-start-5 row-start-3">
+      <ReasonCard href="/" class="">
         <template v-slot:svg>
-          <BlocksSvg />
+          <BlocksSvg class="svg" />
         </template>
         <template v-slot:header>
           Search Engine Optimization
@@ -114,4 +119,31 @@ import HorDiv from './ui/HorDiv.vue'
 import VerDiv from './ui/VerDiv.vue'
 
 </script>
-<style ></style>
+<style scoped >
+.svg{
+  height: 36px;
+  width: 36px;
+  }
+@media (min-width: 640px) {
+  svg{
+  }
+}
+@media (min-width: 768px) {
+  svg{
+    height: 40px;
+    width: 56px;
+  }
+}
+@media (min-width: 1024px) {
+  svg{
+    height: 40px;
+    width: 56px;
+  }
+}
+@media (min-width: 1280px) {
+  svg{
+    height: 44px;
+    width: 44px;
+  }
+}
+</style>
