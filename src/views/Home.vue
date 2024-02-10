@@ -1,6 +1,6 @@
 <template>
   <!-- Inside grid layout w.e. not a hero should get cols-start-2 -->
-    <section class="relative grid grid-cols-lg-main lg:grid-cols-xl-main col-start-1 col-end-4">
+    <section class="relative grid grid-cols-lg-main xl:grid-cols-xl-main col-start-1 col-end-4">
       <div class="col-start-2">
         <Hero/>
       </div>
