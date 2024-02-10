@@ -18,6 +18,8 @@
 }
 @media (min-width: 768px) {
   svg{
+    height: 40px;
+    width: 56px;
   }
 }
 @media (min-width: 1024px) {
