@@ -5,14 +5,14 @@
         <span class="text-gray-40">Our</span> Services
       </template>
       <template v-slot:content>
-        Our comprehensive range of services includes web design, mobile app development, SEO, social media marketing, and more. Whether you're a startup or an established enterprise, our experts will craft solutions that drive results.
+        {{'Our comprehensive range of services includes web design, mobile app development, SEO, social media marketing, and more. Whether you\'re a startup or an established enterprise, our experts will craft solutions that drive results.'}}
       </template>
     </SectionHeader>
 
-    <main class="grid grid-cols-2 gap-5 xl:gap-[30px] mt-[60px] xl:mt-20">
+    <main class="grid max-md:grid-cols-1 md:grid-cols-2 gap-5 xl:gap-[30px] mt-[60px] xl:mt-20">
       <ServiceCard >
         <template v-slot:svg>
-          <CodeSvg />
+          <CodeSvg class="svg" />
         </template>
         <template v-slot:title>
           Web Development
@@ -24,7 +24,7 @@
 
       <ServiceCard >
         <template v-slot:svg>
-          <PhoneSvg />
+          <PhoneSvg class="svg" />
         </template>
         <template v-slot:title>
           Mobile App Development
@@ -36,7 +36,7 @@
 
       <ServiceCard >
         <template v-slot:svg>
-          <PointerSvg />
+          <PointerSvg class="svg" />
         </template>
         <template v-slot:title>
           Web Development
@@ -48,7 +48,7 @@
 
       <ServiceCard >
         <template v-slot:svg>
-          <LightningSvg />
+          <LightningSvg class="svg" />
         </template>
         <template v-slot:title>
           Digital Marketing
@@ -62,6 +62,7 @@
   </section>
 </template>
 <script setup>
+// TODO : Add Read More option for v-slot:content
 import CodeSvg from '../assets/svgs/CodeSvg.vue'
 import PointerSvg from '../assets/svgs/PointerSvg.vue'
 import PhoneSvg from '../assets/svgs/PhoneSvg.vue'
@@ -70,6 +71,32 @@ import SectionHeader from './SectionHeader.vue'
 import ServiceCard from './ServiceCard.vue'
 
 </script>
-<style >
-
+<style scoped>
+/* sm */
+@media (min-width: 640px) {
+}
+/* max-md */
+@media (max-width: 768px) {
+  svg{
+    width: 26px;
+    height: 26px;
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  svg{
+    width: 34px;
+    height: 34px;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+}
+/* xl */
+@media (min-width: 1280px) {
+  svg{
+    width: 44px;
+    height: 44px;
+  }
+}
 </style>

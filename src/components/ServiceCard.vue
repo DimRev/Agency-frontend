@@ -12,7 +12,14 @@
             <slot name="title" />
           </h3>
           <p class="text-gray-40">
-            <slot name="content"/>
+            <div class="block md:hidden">
+              <slot  name="content"/>
+            </div>
+            <div class="md:block hidden">
+              <slot name="content">
+
+              </slot>
+            </div>
           </p>
         </div>
         <div>
@@ -24,9 +31,11 @@
 
 <script setup>
 import Card from './ui/Card.vue'
-  import ArrowRightSvg from '../assets/svgs/ArrowRightSvg.vue'
-  import Link from './ui/Link.vue'
+import ArrowRightSvg from '../assets/svgs/ArrowRightSvg.vue'
+import Link from './ui/Link.vue'
 import CirclesAvatarFrame from './ui/CirclesAvatarFrame.vue'
+
+
 </script>
 
 <style scoped>

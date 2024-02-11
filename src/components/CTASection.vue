@@ -13,9 +13,11 @@
       </div>
     </main>
 
-    <div class="mt-[82px] px-[381px]">
+<!-- TODO Fix this area for page responsively -->
+
+<!-- <div class="mt-[82px] px-[381px]">
       <img src="../assets/imgs/CTAImg.png" alt="DigitX Logo">
-    </div>
+    </div> -->
     <div class="glassed"></div>
   </Card>
 </template>
