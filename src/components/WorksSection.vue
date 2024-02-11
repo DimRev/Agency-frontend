@@ -10,10 +10,10 @@
       </template>
     </SectionHeader>
 
-    <main class="grid grid-cols-2 gap-[50px]">
+    <main class="grid max-md:grid-cols-1 md:grid-cols-2 gap-[50px]">
       <WorkCard >
         <template v-slot:svg >
-          <Shape2Svg />
+          <Shape2Svg class="svg" />
         </template>
         <template v-slot:title >
           Innovative E-commerce Platform
@@ -31,7 +31,7 @@
 
       <WorkCard >
         <template v-slot:svg >
-          <Shape3Svg />
+          <Shape3Svg class="svg" />
         </template>
         <template v-slot:title >
           Mobile App for Enhanced Fitness
@@ -49,7 +49,7 @@
 
       <WorkCard >
         <template v-slot:svg >
-          <Shape1Svg />
+          <Shape1Svg class="svg" />
         </template>
         <template v-slot:title >
           Modern Corporate Website
@@ -67,7 +67,7 @@
 
       <WorkCard >
         <template v-slot:svg >
-          <Shape4Svg />
+          <Shape4Svg class="svg" />
         </template>
         <template v-slot:title >
           Digital Marketing Success Story
@@ -95,6 +95,35 @@ import Shape1Svg from '../assets/svgs/Shape1Svg.vue'
 import Shape2Svg from '../assets/svgs/Shape2Svg.vue'
 import Shape3Svg from '../assets/svgs/Shape3Svg.vue'
 import Shape4Svg from '../assets/svgs/Shape4Svg.vue'
-
-
 </script>
+
+<style scoped>
+
+/* sm */
+@media (min-width: 640px) {
+}
+/* max-md */
+@media (max-width: 768px) {
+  .svg {
+    width: 100px;
+    height: 100px;
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  .svg {
+    width: 150px;
+    height: 150px;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+}
+/* xl */
+@media (min-width: 1280px) {
+  .svg {
+    width: 200px;
+    height: 200px;
+  }
+}
+</style>
