@@ -1,5 +1,5 @@
 <template>
-  <section class="grid grid-cols-[162px_1fr_162px] mb-[120px] overflow-x-hidden">
+  <section class="grid max-md:grid-cols-mobile-main md:grid-cols-lg-main xl:grid-cols-xl-main mb-[120px]">
 
     <SectionHeader class="col-start-2 mb-20">
       <template v-slot:title>
@@ -10,7 +10,7 @@
       </template>
     </SectionHeader>
 
-    <section class="col-span-3 col-start-1 flex gap-[30px] w-[120%] translate-x-[-10%]">
+    <section class="max-md:grid md:col-span-3 max-md:col-start-2 md:col-start-1 flex gap-[30px]">
 
       <TestimonialCard >
         <template v-slot:content >
