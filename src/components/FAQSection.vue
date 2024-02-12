@@ -10,7 +10,7 @@
     </SectionHeader>
     <form class="flex justify-center mb-[100px]">
       <div class="text-input">
-        <input class="bg-gray-10 py-[18px] pr-6 rounded-r-full w-[376px] text-white outline-none placeholder-gray-40" type="text" placeholder="Search">
+        <input class="bg-gray-10 w-[calc(100vw-58px-36px)] py-[18px] pr-6 rounded-r-full md:w-[300px] xl:w-[376px] text-white outline-none placeholder-gray-40" type="text" placeholder="Search">
         <div class="text-input-svg-wrapper">
           <SearchSvg />
         </div>
