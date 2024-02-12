@@ -50,6 +50,7 @@ const frameClass = cva([],{
   .svg-modal-md{
     background: linear-gradient(to top, #0F0F0F 0%, #0F0F0F 55%, #1b1b1b 99%);
     border-radius: 50%;
+    padding: 14px;
   }
 
 /* sm */
@@ -77,9 +78,6 @@ const frameClass = cva([],{
 @media (min-width: 1280px) {
   .svg-modal-lg{
     padding: 20px;
-  }
-  .svg-modal-lg{
-    padding: 14px;
   }
 }
 </style>

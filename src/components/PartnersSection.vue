@@ -1,6 +1,6 @@
 <template>
   <section class="mb-[150px]">
-    <SectionHeader>
+    <SectionHeader class="mb-[60px] xl:mb-20">
       <template v-slot:title>
         <span class="text-gray-40">Our</span> Partners and Clients
       </template>
@@ -9,7 +9,7 @@
       </template>
     </SectionHeader>
 
-    <main class="grid grid-cols-3 gap-[20px]">
+    <main class="grid grid-cols-1 md:grid-cols-3 gap-5 xl:gap-[30xp]">
       <PartnerCard >
         <template v-slot:svg><Shape1LogoSvg/></template>
         <template v-slot:title>ABC Tech Solutions</template>
