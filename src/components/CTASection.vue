@@ -15,9 +15,9 @@
 
 <!-- TODO Fix this area for page responsively -->
 
-<!-- <div class="mt-[82px] px-[381px]">
+<div class="mt-[82px] px-[19%]">
       <img src="../assets/imgs/CTAImg.png" alt="DigitX Logo">
-    </div> -->
+    </div>
     <div class="glassed"></div>
   </Card>
 </template>
@@ -36,7 +36,7 @@ import Link from './ui/Link.vue';
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 25%;
+  height: 19%;
   background-color: #00000011;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;

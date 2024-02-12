@@ -25,7 +25,8 @@
       work: ['card-modal-top-right-gradient', 'rounded-[20px]', 'flex' ,'flex-col', 'max-md:gap-6','md:gap-10','xl:gap-[50px]','max-md:p-[20px]','md:p-10','xl:p-[50px]'],
       'work-svg':['card-modal-bottom-right-gradient', 'relative', 'flex', 'justify-center' ,'max-md:py-[50px]','md:py-[85px]','xl:py-[105px]', 'rounded-[20px]'],
       'testimonial':['card-modal-top-right-gradient', 'flex', 'flex-col', 'gap-6','xl:gap-[30px]', 'p-[30px]','xl:p-10', 'rounded-[20px]','flex-1'],
-      'partner':['card-modal-top-right-gradient', 'rounded-[20px]', 'flex' ,'flex-col', 'gap-[60px]', 'px-10 pt-[100px] pb-20'],
+      'partner':['card-modal-top-right-gradient', 'rounded-[20px]', 'flex' ,'flex-col', 'gap-[60px]', 'px-6' ,'md:px-10', 'xl:px-[50px]',
+      'pt-[50px]','md:pt-20' ,'xl:pt-[100px]','pb-6', 'md:pb-[60px]' ,'xl:pb-20'],
       CTA: ['card-modal-top-gradient', 'rounded-[20px]', 'flex' ,'flex-col', 'gap-10', 'p-10'],
       social: ['card-modal-top-gradient-lg', 'rounded-full', 'flex', 'p-5'],
     }
