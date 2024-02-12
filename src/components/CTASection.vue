@@ -1,8 +1,11 @@
 <template>
   <Card type="CTA" class="relative">
     <SectionHeader class="mb-[60px]">
-      <template v-slot:title>Ready to Transform Your Digital Presence?</template>
-      <template v-slot:content>Take the first step towards digital success with DigitX by your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or a data-driven marketing campaign, we've got you covered. Let's embark on this transformative journey together.</template>
+      <template v-slot:title><span class="max-md:text-2xl">Ready to Transform Your Digital Presence?</span></template>
+      <template v-slot:content>
+        <span class="md:block hidden">Take the first step towards digital success with DigitX by your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or a data-driven marketing campaign, we've got you covered. Let's embark on this transformative journey together.</span>
+        <span class="md:hidden block">Take the first step towards digital success with DigitX by your side.</span>
+      </template>
     </SectionHeader>
 
     <main class="flex flex-col gap-9 text-center">
