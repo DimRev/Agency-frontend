@@ -8,7 +8,7 @@
 import { cva } from 'class-variance-authority'
 
 //TODO: Reorganize Link classes to a more generic form
-const linkClasses = cva(['group/link','duration-300','cursor-pointer','rounded-full','transition-colors'],{
+const linkClasses = cva(['group/link','duration-300','cursor-pointer','rounded-full','transition-colors', 'whitespace-nowrap'],{
   variants:{
     type: {
       ghost: ['xl:px-6', 'px-4', 'xl:py-4', 'py-3', 'hover:bg-gray-10'],

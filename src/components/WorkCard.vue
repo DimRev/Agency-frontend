@@ -1,15 +1,14 @@
 <template>
   <Card type="work">
-      <header class="md:mb-16 max-md:mb-11 xl:mb-[76px] ">
-        <div class="relative">
+      <header class="relative md:mb-16 max-md:mb-11 xl:mb-[76px] ">
+        <div class="">
           <Card type="work-svg" class="card">
-            <div class="svg-wrapper">
+            <div class="overflow-hidden svg-wrapper">
               <slot name="svg"/>
               <img class="abstract" src="../assets/imgs/Abstract Design.png" alt="">
             </div>
-            <!-- TODO fix overflow:hidden -->
-            <Link href="/" type="outline" class="bottom-0 z-10 absolute translate-y-[50%]" img="with">View project details <ArrowRightSvg/></Link>
           </Card>
+          <Link href="/" type="outline" class="bottom-0 left-1/2 z-10 absolute translate-x-[-50%] translate-y-[50%]" img="with">View project details <ArrowRightSvg/></Link>
         </div>
       </header>
       <main class="flex flex-col gap-6">
